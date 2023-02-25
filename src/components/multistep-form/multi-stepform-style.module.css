@@ -1,0 +1,38 @@
+.formStepContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    width: 60vw;
+    height: 90vh;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.stepProgressBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    padding: 0 1rem;
+}
+
+.stepProgressBarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    width: 35px;
+    height: 35px;
+    padding: 0 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px 1px #c8def0;
+}
