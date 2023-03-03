@@ -1,9 +1,13 @@
-import MultiStepForm from "./components/multistep-form/MultiStepForm";
+import React from 'react';
+import RouterConfig from './navigation/RouterConfig';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
       <>
-        <MultiStepForm />
+        <BrowserRouter>
+            <RouterConfig />
+        </BrowserRouter>
       </>
   );
 }

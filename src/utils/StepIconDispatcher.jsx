@@ -15,6 +15,8 @@ const stepProgressBarIcon  = (step) => {
             return <i className="fas fa-file-upload"></i>
         case "Review":
             return <i className="fas fa-eye"></i>
+        default:
+            return <i className="fas fa-user"></i>
     }
 }
 export default stepProgressBarIcon;
